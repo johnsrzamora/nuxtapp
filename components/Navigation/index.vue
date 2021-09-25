@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="navigationpane">
       <el-menu class="el-menu-demo" mode="horizontal">
         <el-menu-item index="1">
           <NuxtLink to="/">Home</NuxtLink>

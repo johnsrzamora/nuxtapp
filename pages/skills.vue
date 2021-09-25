@@ -25,7 +25,6 @@
               </el-menu>
             </el-col>
           </el-row>
-        
         </div>
       </div>
     <NuxtChild />
