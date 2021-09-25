@@ -2,7 +2,17 @@ export default {
   data() {
     return {
       skillsInfo: '',
-      gigsInfo: ''
+      gigsInfo: '',
+      color:'',
+      infoModel:'',
+      title: '',
+      progressColors: [
+        '#0dbab1',
+        '#0db5ba',
+        '#0da6ba',
+        '#0d98ba',
+        '#0d8aba'
+      ]
     }
   },
 

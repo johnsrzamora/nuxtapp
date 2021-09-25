@@ -6,17 +6,17 @@ export default {
         skills: [
           {
             sname: 'VueJS Framework',
-            description: 'one of the most powerful frameworks that i"ve ever used',
+            description: 'one of the most powerful user interfrace frameworks that i"ve ever used. Im knowledgable of using routes, components, props, lifecyle concepts and advance data binding',
             rate: 40,
           },
           {
             sname: 'Javascript',
-            description: 'AcheChe',
+            description: 'JavaScript is a dynamic computer programming language. It is lightweight and most commonly used as a part of web pages, whose implementations allow client-side script to interact with the user and make dynamic pages. It is an interpreted programming language with object-oriented capabilities.',
             rate: 60,
           },
           {
             sname: 'Node.JS',
-            description: 'Bureche',
+            description: 'This is my setup for back end setups. Im expert in making Rest APIs, database setups',
             rate: 20,
           },
           {
@@ -29,6 +29,7 @@ export default {
             description: 'Design2x',
             rate: 70,
           },
+          
         ],
         gigs:[
           "Detail Online Tech Asia (2021 - Present)",
