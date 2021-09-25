@@ -1,7 +1,9 @@
 <template>
   <div>
-    <span>I am a developer</span>
-    <InformationCards/>
+    <InformationCards
+      :infoData="model">
+    </InformationCards>
+    
   </div>
 </template>
 

@@ -2,27 +2,32 @@ export default {
   profile: [
     {
       name: "Stephen Zamora",
-      developer: [{
+      developer: {
         skills: [
           {
-            sname: "VueJS",
-            description: '"one of the most powerful frameworks that i"ve ever used"'
+            sname: 'VueJS Framework',
+            description: 'one of the most powerful frameworks that i"ve ever used',
+            rate: 40,
           },
           {
-            sname: "Javascript",
-            description: '"AcheChe"'
+            sname: 'Javascript',
+            description: 'AcheChe',
+            rate: 60,
           },
           {
-            sname: "Node.JS",
-            description: '"Bureche"'
+            sname: 'Node.JS',
+            description: 'Bureche',
+            rate: 20,
           },
           {
             sname: "HTML5",
-            description: '"Saba Diha"'
+            description: 'Saba Diha',
+            rate: 80,
           },
           {
             sname: "CSS",
-            description: '"Design2x"'
+            description: 'Design2x',
+            rate: 70,
           },
         ],
         gigs:[
@@ -37,7 +42,7 @@ export default {
           "Microsoft Associate SQL",
           "javascript trainee",
         ],
-      }],
+      },
       settings: {
         font_color: 'black',
         navbar_color: 'gold'

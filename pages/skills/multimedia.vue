@@ -1,6 +1,6 @@
 <template>
   <div>
     <span>I am a multimedia</span>
-    <InformationCards/>
+    <InformationCards></InformationCards>
   </div>
 </template>

@@ -8,7 +8,9 @@
 }
 
 .cardinnerlayout {
-  width: 50%;
+  width: 80%;
+  font-family: Cambria;
+  font-size: 13px;
   margin: auto;
 }
 
@@ -53,4 +55,18 @@
 
 .el-menu-item.is-active {
   color: none;
+}
+.el-progress-bar__innerText {
+  color: #0db5ba;
+  font-size: 12px;
+  margin: 0 5px;
+}
+.el-progress-bar__outer {
+  height: 6px;
+  border-radius: 100px;
+  background-color: #EBEEF5;
+  border-radius: 0px;
+  overflow: hidden;
+  position: relative;
+  vertical-align: middle;
 }
