@@ -4,6 +4,9 @@ export default {
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  router: {
+    base: '/nuxtapp/'
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -52,6 +55,4 @@ export default {
     transpile: [/^element-ui/],
   },
 
-
-  router: { base: '/nuxtapp/' },
 }
