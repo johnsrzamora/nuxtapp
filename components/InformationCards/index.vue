@@ -2,37 +2,50 @@
   <div>
     <div class="mainlayout">
       <div class="cardinnerlayout">
-        <el-row :gutter="30">
+        <el-row :gutter="0">
           <el-col :span="24">
             <el-card :body-style="{ padding: '5px'}">
-              <div style="padding:30px;">
-                <span><h2><b>Skills</b></h2></span>
-                <el-collapse v-model="infoModel" 
-                  v-for="(data, index) in skillsInfo"
-                  :key="data.sname">
-                  <el-collapse-item>
-                    <template slot="title">
-                      <div class="progressBars">
-                        <span><h3>{{data.sname}}</h3></span>
-                        <div class="progressBarholder">
-                          <el-progress :text-inside="false" 
-                            :stroke-width="10" 
-                            :show-text="false"
-                            :percentage="data.rate" 
-                            :color="progressColors[index]">
-                          </el-progress>
-                        </div>
-                      </div>
-                    </template>
-                    <div>{{data.description}}</div>
-                  </el-collapse-item>
-                </el-collapse>
-              </div>
+              <el-row>
+                <el-col :span="12">
+                  <div style="padding: 20px">
+                    <div class="avatarHolder">
+                       <el-avatar shape="circle" :size="200" :fit="fill" :src="url"></el-avatar>
+                       <span><h2><b>Stephen Zamora</b></h2></span>
+                       <span><h3>Jr. Web Developer</h3></span>
+                    </div>
+                  </div>
+                </el-col>
+              <el-col :span="12">
+                <div style="padding: 20px">
+                  <span><h2><b>Skills</b></h2></span>
+                    <el-collapse v-for="(data, index) in skillsInfo"
+                      :key="data.sname"
+                      accordion>
+                      <el-collapse-item >
+                        <template slot="title">
+                          <div class="progressBars">
+                            <span><h3>{{data.sname}}</h3></span>
+                            <div class="progressBarholder">
+                              <el-progress :text-inside="false" 
+                                :stroke-width="10" 
+                                :show-text="false"
+                                :percentage="data.rate" 
+                                :color="progressColors[index]">
+                              </el-progress>
+                            </div>
+                          </div>
+                        </template>
+                        <div>{{data.description}}</div>
+                      </el-collapse-item>
+                    </el-collapse>
+                  </div>
+                </el-col>
+              </el-row>
             </el-card>
           </el-col>
           
           <el-col :span="24">
-            <el-card :body-style="{ padding: '20px' }">
+            <el-card :body-style="{ padding: '20px'}">
               <div style="padding: 20px;">
                 <span><b>Gigs</b></span>
                 <el-timeline>
