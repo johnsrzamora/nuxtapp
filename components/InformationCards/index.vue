@@ -20,6 +20,7 @@
                   <span><h2><b>Skills</b></h2></span>
                     <el-collapse v-for="(data, index) in skillsInfo"
                       :key="data.sname"
+                      v-model="activeName" 
                       accordion>
                       <el-collapse-item >
                         <template slot="title">

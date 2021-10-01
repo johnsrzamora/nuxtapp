@@ -1,13 +1,4 @@
-<template>
-  <div>
-    <Navigation/>
-    <NavSkills/>
-    <nuxt/>
-  </div>
-</template>
-
-<script>
-import models from './skills/datamodels/stephen'
+import models from '../../pages/skills/datamodels/stephen'
 export default {
   data() {
     return {
@@ -29,4 +20,3 @@ export default {
     }
   }
 }
-</script>

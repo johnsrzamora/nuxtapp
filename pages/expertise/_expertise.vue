@@ -1,9 +1,14 @@
 <template>
   <div>
-  <InformationCards :infoData="data"></InformationCards>
+    <Navigation/>
     <NuxtLink to="/skills">Back to home</NuxtLink>
+    <InformationCards 
+      :infoData="data">
+    </InformationCards>
   </div>
 </template>
+
+<style> @import '~/assets/global-style.css'; </style>
 
 <script>
 import models from '../skills/datamodels/stephen'
