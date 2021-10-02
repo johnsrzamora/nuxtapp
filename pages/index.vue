@@ -2,18 +2,31 @@
   <div class="mainlayout">
     <Navigation/>
     <div class="homeContainer">
-      <div id="container">
-        <div id="inner">
-          <transition name="el-zoom-in-center">
-        
-          </transition>
-          <span>Hello World</span>
-          <br>
-          <span>Im Stephen Zamora</span>
-          <br>
-          <span>Front-End Dev / Editor / Musician</span>
-        </div>
-      </div>
+      <el-row :gutter="12">
+        <el-col :span="12">
+          <div id="container">
+            <div id="inner">
+              <span>Hello World</span>
+              <br>
+              <span>Im Stephen Zamora</span>
+              <br>
+              <span>Front-End Dev / Editor / Musician</span>
+            </div>
+          </div>
+        </el-col>
+        <el-col :span="12">
+          <div id="container">
+            <div id="inner">
+              <span>Hello World</span>
+              <br>
+              <span>Im Stephen Zamora</span>
+              <br>
+              <span>Front-End Dev / Editor / Musician</span>
+            </div>
+          </div>
+        </el-col>
+      </el-row>
+    
     </div>
    
   </div>
