@@ -5,7 +5,7 @@
         <el-row >
           <el-col :span="18">
              <div class="logo">
-               <span>LI-ZHEN</span>
+               <span>SZ</span>
              </div>
           </el-col>
           <el-col 

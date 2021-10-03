@@ -21,14 +21,32 @@ html {
   font-weight: bold;
   width: 100%; 
 }
+.titleSectionsContainer{
+  width: 70%;
+  height: 300px;
+  margin-right: 25%;
+  margin-top: 25%;
+}
 
 .titleSections {
   font-family: 'NewFont';
   font-size: 70px;
   color: white;
-  float: right;
-  margin-right: 25%;
   margin-top: 10%;
+}
+
+.titleSectionsDetails{
+  font-family: 'NewFont';
+  font-size: 50px;
+  color: white;
+  margin: auto;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+
+.skillBar{
+  width: 300px;
+  height: 60px;
 }
 
 .homeContainer{
