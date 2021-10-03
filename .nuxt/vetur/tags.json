@@ -1,0 +1,23 @@
+{
+  "Tutorial": {
+    "description": "Auto imported from components/Tutorial.vue"
+  },
+  "Chart": {
+    "description": "Auto imported from components/Chart/index.vue"
+  },
+  "InformationCards": {
+    "description": "Auto imported from components/InformationCards/index.vue"
+  },
+  "Navigation": {
+    "description": "Auto imported from components/Navigation/index.vue"
+  },
+  "NavMain": {
+    "description": "Auto imported from components/NavMain/index.vue"
+  },
+  "NavSkills": {
+    "description": "Auto imported from components/NavSkills/index.vue"
+  },
+  "Sections": {
+    "description": "Auto imported from components/Sections/index.vue"
+  }
+}

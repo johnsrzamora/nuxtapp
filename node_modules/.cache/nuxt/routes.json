@@ -1,0 +1,60 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "C:\\\\Users\\\\Detail\\\\OneDrive\\\\Documents\\\\nuxtapp\\\\pages\\\\about.vue",
+    "chunkName": "pages/about",
+    "_name": "_716e8fd7"
+  },
+  {
+    "name": "skills",
+    "path": "/skills",
+    "component": "C:\\\\Users\\\\Detail\\\\OneDrive\\\\Documents\\\\nuxtapp\\\\pages\\\\skills.vue",
+    "chunkName": "pages/skills",
+    "children": [
+      {
+        "name": "skills-multimedia",
+        "path": "multimedia",
+        "component": "C:\\\\Users\\\\Detail\\\\OneDrive\\\\Documents\\\\nuxtapp\\\\pages\\\\skills\\\\multimedia.vue",
+        "chunkName": "pages/skills/multimedia",
+        "_name": "_07374c33"
+      },
+      {
+        "name": "skills-script",
+        "path": "script",
+        "component": "C:\\\\Users\\\\Detail\\\\OneDrive\\\\Documents\\\\nuxtapp\\\\pages\\\\skills\\\\script.js",
+        "chunkName": "pages/skills/script",
+        "_name": "_b559a308"
+      },
+      {
+        "name": "skills-datamodels-stephen",
+        "path": "datamodels/stephen",
+        "component": "C:\\\\Users\\\\Detail\\\\OneDrive\\\\Documents\\\\nuxtapp\\\\pages\\\\skills\\\\datamodels\\\\stephen.js",
+        "chunkName": "pages/skills/datamodels/stephen",
+        "_name": "_76308ff6"
+      }
+    ],
+    "_name": "_6aca0030"
+  },
+  {
+    "name": "expertise-expertise",
+    "path": "/expertise/:expertise?",
+    "component": "C:\\\\Users\\\\Detail\\\\OneDrive\\\\Documents\\\\nuxtapp\\\\pages\\\\expertise\\\\_expertise.vue",
+    "chunkName": "pages/expertise/_expertise",
+    "_name": "_4f7d65ed"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\Detail\\\\OneDrive\\\\Documents\\\\nuxtapp\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_ddb32ac8"
+  },
+  {
+    "name": "slug",
+    "path": "/:slug",
+    "component": "C:\\\\Users\\\\Detail\\\\OneDrive\\\\Documents\\\\nuxtapp\\\\pages\\\\_slug.vue",
+    "chunkName": "pages/_slug",
+    "_name": "_e1206d58"
+  }
+]
