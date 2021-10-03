@@ -4,15 +4,18 @@ export default {
       routes: [
         {
           rname: '/',
-          rcolor: '#451e3e'
+          rcolor: '#FFD400',
+          name:'Home',
         },
         {
-          rname: '/skills',
-          rcolor: '#651e3e'
+          rname: '/about',
+          rcolor: '#FFEA61',
+          name:'About',
         },
         {
           rname: '/contact',
-          rcolor: '#851e3e'
+          rcolor: '#FFFFB7',
+          name:'Contact',
         },
       ],
     }

@@ -3,13 +3,18 @@
     <div class="mainColor">
       <div class="colorContainer">
         <el-row >
+          <el-col :span="18">
+             <div class="logo">
+               <span>LI-ZHEN</span>
+             </div>
+          </el-col>
           <el-col 
             v-for="r in nav"
-              :span="8"
+              :span="2"
               :key="r.rname">
               <NuxtLink :to="r.rname">
-                 <div class="linkColorHolder" 
-                  :style="{background: r.rcolor}">
+                  <div class="linkColorHolder">
+                    <h5>{{r.name}}</h5>
                   </div>
               </NuxtLink>
           </el-col>
